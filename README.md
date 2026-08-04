@@ -1,17 +1,42 @@
-# pihole-sense-dashboard
+# Pi Hole Sense Dashboard
 A Sense HAT dashboard providing health, status and maintenance information for Pi-hole and Unbound.
 
-## ***Inclusive Community.***
+## **Inclusive Community.**
 
 This project is created and maintained by a transgender developer and proudly supports the LGBTQIA+ community.
-
 Everyone is welcome to use, learn from, and contribute to this project. Respectful participation is expected regardless of gender identity, sexual orientation, race, religion, disability, or background.
-
 Contributions are welcome from everyone. Please be respectful and help keep this a welcoming space.
+This is a hobby project devoped in my spare time. Progress will depend on my own time and motivationI have available.
 
-This is a hobby project that I am devoping in my spare time. Progress will depend on my own time and motivation.
+# Mission Statement
+If the user has to open the Pi-hole web interface just to confirm everything is healthy, then the dashboard has failed its purpose.
 
-This project currently targets a Raspberry Pi 3 Model B+ fitted with the official Raspberry Pi Sense HAT. The aim is to use the Sense HAT's LED matrix and sensors to provide an at-a-glance health dashboard for Pi-hole and Unbound.
+## Current development hardware
+
+- Raspberry Pi 3 Model B+
+- Official Raspberry Pi Sense HAT
+- Raspberry Pi OS Lite x64, istalled 4 August 2026
+- Pi-hole v6
+- Unbound
+
+Initial delopment started 4 August 2026.
+
+## Project Goals
+
+The aim of this project is to build an unobtrusive hardware status display for Pi-hole using the Raspberry Pi Sense HAT.
+Rather than requiring users to log into the web interface, the LED matrix provides immediate visual feedback on system health, maintenance requirements, and service status.
+The dashboard is designed to inform rather than control. It reports system health and maintenance requirements but does not perform administrative actions.
+
+## Design Philosophy
+
+The dashboard is designed to be intentionally quiet.
+If everything is healthy, it should simply reassure the user that all is well.
+Only when maintenance is required or a fault occurs should it actively draw attention.
+The display should be informative without becoming distracting.
+The aim is to reduce the need to continually log into the Pi-hole web interface while avoiding unnecessary distraction.
+
+## Screenshot
+Coming soon
 
 ## Planned Features
 
@@ -33,6 +58,9 @@ This project currently targets a Raspberry Pi 3 Model B+ fitted with the officia
 
 ## Roadmap
 ### v0.1
+- [ ] Project structure
+- [ ] Configuration file
+- [ ] Logging
 - [ ] Basic Sense HAT output
 - [ ] Green "OK" display
 - [ ] Red fault display
@@ -46,6 +74,7 @@ This project currently targets a Raspberry Pi 3 Model B+ fitted with the officia
 ### v0.3
 - [ ] Quiet Hours
 - [ ] One-button diagnostics
+- [ ] Manual status check via joystick press
 - [ ] Configurable brightness
 
 ### v1.0
