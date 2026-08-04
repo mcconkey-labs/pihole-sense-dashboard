@@ -1,4 +1,4 @@
-# Pi Hole Sense Dashboard
+# Pi-Hole Sense Dashboard
 A Sense HAT dashboard providing health, status and maintenance information for Pi-hole and Unbound.
 
 ## **Inclusive Community.**
@@ -11,6 +11,10 @@ This is a hobby project developed in my spare time. Progress will depend on my o
 ## Mission Statement
 If the user has to open the Pi-hole web interface just to confirm everything is healthy, then the dashboard has failed its purpose.
 
+## Inspiration
+
+This project was born from the desire to know the health of a Pi-hole installation without needing to continually open a browser or SSH into the Raspberry Pi.
+
 ## Current development hardware
 
 - Raspberry Pi 3 Model B+
@@ -19,7 +23,7 @@ If the user has to open the Pi-hole web interface just to confirm everything is 
 - Pi-hole v6
 - Unbound
 
-Initial development started 4 August 2026.
+**Initial development started 4 August 2026.**
 
 ## Project Goals
 
