@@ -9,6 +9,7 @@ Contributions are welcome from everyone. Please be respectful and help keep this
 This is a hobby project developed in my spare time. Progress will depend on my own time and the motivation I have available.
 
 ## Mission Statement
+
 If the user has to open the Pi-hole web interface just to confirm everything is healthy, then the dashboard has failed its purpose.
 
 ## Inspiration
